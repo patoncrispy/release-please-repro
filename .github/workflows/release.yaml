@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: simple
+          package-name: console
+          path: dotnet
+          monorepo-tags: true
+          extra-files: |
+            console.csproj

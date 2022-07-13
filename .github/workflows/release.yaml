@@ -9,9 +9,6 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          release-type: simple
-          package-name: console
-          path: dotnet
+          command: manifest
+          default-branch: master
           monorepo-tags: true
-          extra-files: |
-            console.csproj

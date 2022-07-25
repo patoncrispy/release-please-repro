@@ -1,8 +1,6 @@
 {
     "packages": {
-        "dotnet": {
-            "package-name": "console",
-            "release-type": "simple"
+        "js": {
         }
     }
 }

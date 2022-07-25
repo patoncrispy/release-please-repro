@@ -1,15 +1,8 @@
 {
     "packages": {
-        "dotnet/": {
+        "dotnet": {
             "package-name": "console",
-            "release-type": "simple",
-            "extra-files": [
-                {
-                    "type": "xml",
-                    "path": "console.csproj",
-                    "xpath": "//Project/PropertyGroup/Version"
-                }
-            ]
+            "release-type": "simple"
         }
     }
 }

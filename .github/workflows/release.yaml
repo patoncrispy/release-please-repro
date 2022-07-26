@@ -14,6 +14,7 @@ jobs:
           default-branch: main
           monorepo-tags: true
       - run: echo "${{ toJSON(steps.release.outputs) }}"
+        continue-on-error: true
       - if: ${{ steps.release.outputs['js--release_created'] }}
         run: echo "JS release created!"
       - if: ${{ steps.release.outputs['dotnet--release_created'] }}

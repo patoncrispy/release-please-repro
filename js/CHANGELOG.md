@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/patoncrispy/release-please-repro/compare/js-v1.2.0...js-v1.2.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* improve syntrax ([e4574e2](https://github.com/patoncrispy/release-please-repro/commit/e4574e20937b433fe08572369dc34f7cbaf42bfb))
+
 ## [1.2.0](https://github.com/patoncrispy/release-please-repro/compare/js-v1.1.0...js-v1.2.0) (2022-07-26)
 
 

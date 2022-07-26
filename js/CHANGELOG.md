@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/patoncrispy/release-please-repro/compare/js-v1.2.3...js-v1.2.4) (2022-07-26)
+
+
+### Bug Fixes
+
+* stuffs ([9298af1](https://github.com/patoncrispy/release-please-repro/commit/9298af1e33c50bb737b78d8e713f38baece49d12))
+
 ## [1.2.3](https://github.com/patoncrispy/release-please-repro/compare/js-v1.2.2...js-v1.2.3) (2022-07-26)
 
 

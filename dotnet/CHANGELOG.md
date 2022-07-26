@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.4](https://github.com/patoncrispy/release-please-repro/compare/console-v1.3.3...console-v1.3.4) (2022-07-26)
+
+
+### Bug Fixes
+
+* stuffs ([9298af1](https://github.com/patoncrispy/release-please-repro/commit/9298af1e33c50bb737b78d8e713f38baece49d12))
+
 ## [1.3.3](https://github.com/patoncrispy/release-please-repro/compare/console-v1.3.2...console-v1.3.3) (2022-07-26)
 
 

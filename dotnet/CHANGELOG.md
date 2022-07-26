@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/patoncrispy/release-please-repro/compare/console-v1.3.0...console-v1.3.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* improve syntrax ([e4574e2](https://github.com/patoncrispy/release-please-repro/commit/e4574e20937b433fe08572369dc34f7cbaf42bfb))
+
 ## [1.3.0](https://github.com/patoncrispy/release-please-repro/compare/console-v1.2.0...console-v1.3.0) (2022-07-26)
 
 

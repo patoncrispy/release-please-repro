@@ -13,6 +13,6 @@ jobs:
           command: manifest
           default-branch: main
           monorepo-tags: true
-      - run: echo ${{ steps.release.outputs }}
+      - run: echo ${{ toJSON(steps.release.outputs) }}
       - if: ${{ steps.release.outputs['packages/js--release_created'] }}
         run: echo "Dotnet release created!"

@@ -8,7 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           command: manifest
           default-branch: main
           monorepo-tags: true
+      - if: steps.release.outputs['packages/dotnet--release-created']
+        run: echo "Dotnet release created!"
+      - if: steps.release.outputs['packages/js--release-created']
+        run: echo "Dotnet release created!"

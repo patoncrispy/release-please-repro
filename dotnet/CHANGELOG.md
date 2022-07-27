@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/patoncrispy/release-please-repro/compare/console-v1.5.0...console-v1.6.0) (2022-07-27)
+
+
+### Features
+
+* adds ([9373a05](https://github.com/patoncrispy/release-please-repro/commit/9373a057a9957b8714cf46f9478ee25a2a00d1c8))
+
 ## [1.5.0](https://github.com/patoncrispy/release-please-repro/compare/console-v1.4.0...console-v1.5.0) (2022-07-27)
 
 

@@ -7,7 +7,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     outputs:
-      release: ${{ steps.release.outputs }}
+      release: ${{ toJSON(steps.release.outputs) }}
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release

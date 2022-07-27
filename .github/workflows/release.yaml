@@ -6,6 +6,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    outputs:
+      release: ${{ steps.release.outputs }}
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -21,3 +23,11 @@ jobs:
         run: echo "Dotnet release created!"
       - if: ${{ steps.release.outputs['deeply/nested--release_created'] }}
         run: echo "Deeply nested release created!"
+  next:
+    needs: release
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ needs.release.outputs.release }}
+        continue-on-error: true
+      - run: echo ${{ toJSON(needs.release.outputs.release) }}
+        continue-on-error: true

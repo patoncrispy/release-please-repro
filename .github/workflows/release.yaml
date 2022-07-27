@@ -19,3 +19,5 @@ jobs:
         run: echo "JS release created!"
       - if: ${{ steps.release.outputs['dotnet--release_created'] }}
         run: echo "Dotnet release created!"
+      - if: ${{ steps.release.outputs['deeply/nested--release_created'] }}
+        run: echo "Deeply nested release created!"

@@ -26,8 +26,8 @@ jobs:
   next:
     needs: release
     runs-on: ubuntu-latest
+    env:
+      release: ${{ fromJSON(needs.release.outputs.release) }}
     steps:
-      - run: echo ${{ needs.release.outputs.release }}
-        continue-on-error: true
-      - run: echo ${{ toJSON(needs.release.outputs.release) }}
+      - run: echo ${{ env.release.releases_created }}
         continue-on-error: true

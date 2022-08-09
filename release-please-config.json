@@ -15,6 +15,17 @@
                 }
             ]
         },
-        "deeply/nested": {}
+        "deeply/nested": {},
+        "deep/dotnet": {
+            "package-name": "project",
+            "release-type": "simple",
+            "extra-files": [
+                {
+                    "type": "xml",
+                    "path": "project/project.csproj",
+                    "xpath": "//Project/PropertyGroup/Version"
+                }
+            ]
+        }
     }
 }

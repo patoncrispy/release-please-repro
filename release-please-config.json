@@ -16,7 +16,7 @@
             ]
         },
         "deeply/nested": {},
-        "deep/dotnet": {
+        "deep/dotnetly": {
             "package-name": "project",
             "release-type": "simple",
             "extra-files": [

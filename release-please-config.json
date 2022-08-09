@@ -11,7 +11,7 @@
             "extra-files": [
                 {
                     "type": "xml",
-                    "path": "project/project.csproj",
+                    "path": "deep/dotnet/project/project.csproj",
                     "xpath": "//Project/PropertyGroup/Version"
                 }
             ]

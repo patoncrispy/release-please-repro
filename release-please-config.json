@@ -13,6 +13,11 @@
                     "type": "xml",
                     "path": "project.csproj",
                     "xpath": "//Project/PropertyGroup/Version"
+                },
+                {
+                    "type": "xml",
+                    "path": "version.xml",
+                    "xpath": "//Project/PropertyGroup/Version"
                 }
             ]
         }

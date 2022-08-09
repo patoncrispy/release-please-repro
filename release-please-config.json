@@ -5,13 +5,13 @@
             "package-name": "js"
         },
         "deeply/nested": {},
-        "deep/dotnet": {
+        "deep/dotnet/project": {
             "package-name": "project",
             "release-type": "simple",
             "extra-files": [
                 {
                     "type": "xml",
-                    "path": "deep/dotnet/project/project.csproj",
+                    "path": "project.csproj",
                     "xpath": "//Project/PropertyGroup/Version"
                 }
             ]
